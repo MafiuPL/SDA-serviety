@@ -1,0 +1,10 @@
+.idea/
+Sort/src/main/main.iml
+Sort/src/test/test.iml
+SDA-servlet/designPatters.iml
+SDA-servlet/target/classes/pl/sda/builder/Main.class
+SDA-servlet/target/classes/pl/sda/builder/Person.class
+SDA-servlet/target/classes/pl/sda/builder/PersonAddress.class
+SDA-servlet/target/classes/pl/sda/builder/PersonBuilder.class
+SDA-servlet/target/classes/pl/sda/facade/Main.class
+SDA-servlet/target/classes/pl/sda/facade/SortFacade.class

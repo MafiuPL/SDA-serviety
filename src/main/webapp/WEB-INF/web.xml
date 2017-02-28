@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>PathServlet</servlet-name>
+        <servlet-class>com.mateusz.PathServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PathServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+            <servlet-name>PathServlet</servlet-name>
+            <servlet-class>com.mateusz.PathServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>PathServlet</servlet-name>
+            <url-pattern>/path/*</url-pattern>
+        </servlet-mapping>
+</web-app>
