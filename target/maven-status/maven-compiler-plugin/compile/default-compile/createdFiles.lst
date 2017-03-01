@@ -1,3 +1,5 @@
-com\mateusz\Application.class
+com\mateusz\User.class
 com\mateusz\MyServlet.class
+com\mateusz\UserServlet.class
+com\mateusz\Application.class
 com\mateusz\PathServlet.class

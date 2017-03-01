@@ -26,7 +26,7 @@ public class MyServlet extends HttpServlet {
         Integer counter = new Integer(req.getParameter("counter"));
         writer.write("<ul>");
         names.stream()
-        .limit(counter)
+                .limit(counter)
                 .forEach(e -> writer.write("<li>" + e + "</li>"));
         names.forEach(e -> writer.write("<li>" + e + "</li>"));
         writer.write("</ul>");

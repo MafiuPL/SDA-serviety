@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by RENT on 2017-02-28.
  */
-public class PathServlet extends HttpServlet{
+public class PathServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<String> names = Arrays.asList("Zdzichu", "Zbychu", "Rychu", "Jachu", "Edmund", "Benedykt");
